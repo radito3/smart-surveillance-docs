@@ -2,7 +2,7 @@
 Documents and diagrams for the Smart Surveillance System
 
 
-## Architecture
+## System Architecture
 
 ![architecure](arch_diagram.svg)
 
@@ -12,5 +12,16 @@ The recording service will encrypt the video before storing it in a Google Cloud
 
 A storage optimization that will be applied is that if no changes are detected within 2-3 minutes, the storage rate will be reduced to 1 frame per second, or even a frame every few seconds.
 
-`*` The protocols for Non-real-time consumers are all that MediaMTX support. (e.g. RTSP, RTMP, WebRTC, HLS)
+_**Note:**_ The protocols for Non-real-time consumers are all that MediaMTX support. (e.g. RTSP, RTMP, WebRTC, HLS)
 
+## Video analysis pipeline
+
+![ml-pipeline](ml-pipeline-v3.svg)
+
+The context clues are a finite list of predefined scene templates which will augment (disable components of) the analysis pipeline.
+
+This will optimize computing resources and analysis speed in certain scenes.
+
+## Analysis sequence
+
+![sequence](ml-pipeline-sequence.svg)
