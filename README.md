@@ -16,9 +16,9 @@ A storage optimization that will be applied is that if no changes are detected w
 
 ## Video analysis pipeline
 
-![ml-pipeline](ml-pipeline/ml-pipeline-v3.svg)
+![ml-pipeline](ml-pipeline/ml-pipeline-v4.svg)
 
-The context clues are a finite list of predefined scene templates which will augment (disable components of) the analysis pipeline.
+The context clues are a finite list of predefined scene templates which will augment (disable components of) the analysis pipeline and decide which classifier to use.
 
 This will optimize computing resources and analysis speed in certain scenes.
 

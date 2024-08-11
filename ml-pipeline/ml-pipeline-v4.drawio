@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.6">
+  <diagram name="Page-1" id="2pYWSlo5MJatezJthjYo">
+    <mxGraphModel dx="1242" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sSXccHsvcKDtockBLD8j-4" value="People &amp;amp; object detection" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="384" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sSXccHsvcKDtockBLD8j-6" value="Optical flow" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="445" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sSXccHsvcKDtockBLD8j-8" value="Temporal difference" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="384" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sSXccHsvcKDtockBLD8j-10" value="Histogram of oriented gradients" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="504" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sSXccHsvcKDtockBLD8j-12" value="&lt;div&gt;Pose estimation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="445" y="265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sSXccHsvcKDtockBLD8j-13" value="LSTM&lt;div&gt;neural network&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sSXccHsvcKDtockBLD8j-15" value="Activity detection" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="445" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sSXccHsvcKDtockBLD8j-17" value="Human-object interaction" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="504" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sSXccHsvcKDtockBLD8j-18" value="Context&lt;div&gt;clues&lt;/div&gt;&lt;div&gt;filter&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+          <mxGeometry x="280" y="170" width="59" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="sSXccHsvcKDtockBLD8j-26" value="Sequential Video Frame input" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sSXccHsvcKDtockBLD8j-31" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="595" as="sourcePoint" />
+            <mxPoint x="260" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSXccHsvcKDtockBLD8j-33" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="590" as="sourcePoint" />
+            <mxPoint x="640" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-4" value="Sliding window&lt;div&gt;buffer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-5" value="Graph neural network with SAG pooling" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-6" value="Graph creation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sSXccHsvcKDtockBLD8j-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="470" as="sourcePoint" />
+            <mxPoint x="260" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-8" value="Network I/O" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="338" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-10" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="595" as="sourcePoint" />
+            <mxPoint x="360" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-11" value="Context&lt;div&gt;clues&lt;/div&gt;&lt;div&gt;classifier&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="660" y="170" width="59" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-12" value="Binary classifier based on people detection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-13" value="Sliding window&lt;div&gt;buffer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-14" value="Activity classifier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-15" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="590" as="sourcePoint" />
+            <mxPoint x="740" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-16" value="Run analysers in parallel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="610" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-17" value="Aggregate extracted features" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="610" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-18" value="Semantic borders" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-19" value="Abstract component,&lt;div&gt;not an object&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="244.5" y="110" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-20" value="Warning Notification&lt;div&gt;Sender&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="338" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-21" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1260" y="590" as="sourcePoint" />
+            <mxPoint x="1260" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-22" value="Only one of the classifiers will run for any one video source" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="170" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="werA4xY03iRnXw5hfd-Q-24" value="Application border" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="610" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
